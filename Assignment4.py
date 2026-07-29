@@ -1,5 +1,3 @@
-# Memoization (Top-Down)
-
 def fibonacci_memo(n, dp):
     if n == 0:
         return 0
@@ -13,7 +11,6 @@ def fibonacci_memo(n, dp):
     return dp[n]
 
 
-# Tabulation (Bottom-Up) - Based on Given Pseudocode
 
 def fibonacci_iterative(n):
     if n == 0:
